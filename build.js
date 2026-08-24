@@ -1,0 +1,1 @@
+const fs=require('fs');fs.mkdirSync('public',{recursive:true});for(const f of ['index.html','manifest.json','sw.js'])fs.copyFileSync(f,'public/'+f);
